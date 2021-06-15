@@ -62,5 +62,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 ## Contact
 
 <!-- - Website [your-website.com](https://{your-web-site-link}) -->
-- GitHub [@your-username](https://{github.com/dapriad})
-- Twitter [@your-twitter](https://{twitter.com/dapriad})
+- GitHub [@dapriad](https://{github.com/dapriad})
+- Twitter [@dapriad](https://{twitter.com/dapriad})
