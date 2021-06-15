@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Mate+SC&display=swap');
+body {
+    font-family: 'Mate SC';
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.wrapper>nav {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.wrapper>nav>.title-nav {
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding-left: 70px;
+}
+
+.wrapper>.main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+}
+
+.img-404 {
+    height: 100%;
+    margin-left: 100px;
+    flex-basis: 50%;
+}
+
+img {
+    height: 500px;
+}
+
+.content {
+    flex-basis: 40%;
+}
+
+.content>p {
+    font-family: 'Inconsolata';
+}
+
+h1 {
+    font-size: 5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 2rem;
+    padding-right: 250px;
+    line-height: 2.5rem;
+}
+
+button {
+    width: 200px;
+    height: 80px;
+    color: white;
+    background-color: black;
+    border: none;
+    margin-top: 30px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer>div {
+    color: darkgray;
+    padding: 20px 0;
+}
+
+@media (max-width: 1120px) {
+    .wrapper>.main {
+        flex-wrap: wrap;
+    }
+    .img-404 {
+        display: flex;
+        margin-left: 0 !important;
+        flex-basis: 100% !important;
+        justify-content: center;
+    }
+    .content {
+        flex-basis: 100% !important;
+        margin: 0 5%;
+    }
+    p {
+        padding-right: 0px !important;
+    }
+}
